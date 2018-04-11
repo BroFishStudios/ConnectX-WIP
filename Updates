@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ConnectX Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <Style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:#dddddd;
+        }
+        li{
+            float: left;
+        }
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: #c0c0c0;
+        }
+        .active {
+            background-color: #2d99d4;
+        }
+    </Style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a class="active" href="#Home">Home</a></li>
+            <li><a href="#JobSearch">Job Search</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li style="float: right;"><a href="#SignUp">Sign Up</a></li>
+            <li style="float: right;"><a href="#LogIn">Log In</a></li>
+        </ul>
+        <h1>Welcome to ConnectX</h1>
+    </header>
+   <img src="/Images/40cf4d62ee160078b979cac58b1c209c.jpg"> 
+   <!--Place Holder Image, needs fixing/changed to a section on on page (see mockup)-->
+   <h2>ConnectX cultivates personal relationships from the start</h2>
+        <p>With the ConnectX platform relationships start as a personal one.
+           Whether you are looking for the perfect canidate for the job, or you are looking for the perfect place to work
+           that will fit your personality and values, ConnectX will ensure each interaction is a personal interaction.
+        </p>
+    <h2>How it works</h2>
+    <p>Each ConnectX user has a personal business profile that will display various information about that canidate (or business).
+       ConnectX strives to have a familiar "Social Netowrk" feel for each user. User profiles will display information such as 
+       work history, skillsets and strengths, and what each canidate is looking for in their next opportunity. What sets ConnectX
+       apart from other platforms is the use of video to show of your personality and character. We wanted to take away the impersonal
+       aspects of names on paper and allow each user to have their moment to shine in a video on their profile stating who they are,
+       what they stand for, and why a company should higher them based of <strong>who they are as a person</strong> and not just their resume.
+       The users are able to tag their profile with career fields to easily be searched by businesses or even connect with other people with
+       related tags. Business Users have the same features available to them as they can an organization profile that can link back to personal
+       user profiles for their employees. The organization can show videos on what it is like to work for them and what their company values are,
+       as well as have recruiters that can send videos to canidates talking about their skills and what they thought about their own personal
+       profile videos. ConnectX aims to cultivates the personal interaction from the moment each party interacts, to the handshake in the office
+       that welcomes someone to the team. 
+    </p>
+</body>
+</html>
