@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+    font-family: 'Lucida Sans', 'Georgia', sans-serif;
+}
+#header{
+    background-color: #ddd;
+    height: 25%;
+    width: 99%;
+}
+#slideshow{
+    text-align: center;
+    padding: 2%;
+}
+#content{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5%;
+}
+#nav{
+    border: 4px solid black;
+}
+
+#navbutton{
+    display: block;
+    width: 40%;
+    float: left;
+    border: 2px solid black;
+}
+#nav ul {
+    list-style-type: none;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ddd;
+}
+#nav li {
+    float: left;
+}
+#nav li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover:not(.active):not(#logo) {
+    background-color: #c0c0c0;
+}
+.active{
+    background-color: #2d99d4;
+}
+
+#signup {
+    float: right;
+    background-color: #2d99d4;
+    color: white;
+    padding: 10px 24px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+#signup:hover{
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 2px solid #2d99d4;
+}
+
+#login{
+    float: right;
+    background-color: #ddd;
+    color: #2d99d4;
+    padding: 10px 24px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+#login:hover{
+    transition-duration: 0.4s;
+    background-color: white;
+    color: #2d99d4;
+    cursor: pointer;
+    border: 2px solid #2d99d4;
+}
+
+#footer{
+    background-color: #ddd;
+}
